@@ -7,7 +7,7 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>Tela de Acesso</ion-title>
+    <ion-title>Tela de Usuário</ion-title>
   </ion-navbar>
 
 </ion-header>
@@ -16,18 +16,18 @@
 <ion-content>
 
   <ion-list>
-    <img src="assets/imgs/pizza.png" alt="">
+    <img src = "assets/imgs/pizza.png" alt="">
     <ion-item>
-      <ion-label stacked>Username</ion-label>
+      <ion-label stacked>Nome</ion-label>
       <ion-input type="text"></ion-input>
     </ion-item>
 
     <ion-item>
-      <ion-label stacked>Password</ion-label>
+      <ion-label stacked>Senha</ion-label>
       <ion-input type="password"></ion-input>
     </ion-item>
 
   </ion-list>
 
-  <button ion-button>Login</button> <button ion-button color="secondary">Cadastrar</button>
+  <button (click)="home()"ion-button>Login</button> <button (click)="cadastro()"ion-button color="secondary">Cadastrar</button>
 </ion-content>

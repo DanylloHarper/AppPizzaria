@@ -1,12 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-
-/**
- * Generated class for the IntroPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
+import { CadastroPage } from '../cadastro/cadastro';
+import { HomePage } from '../home/home';
 
 @IonicPage()
 @Component({
@@ -21,5 +16,10 @@ export class IntroPage {
   ionViewDidLoad() {
     console.log('ionViewDidLoad IntroPage');
   }
-
+  cadastro() {
+    this.navCtrl.push(CadastroPage)
+  }
+  home(){
+    this.navCtrl.push(HomePage)
+  }
 }
