@@ -12,6 +12,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { IntroPage } from '../pages/intro/intro';
 import { CadastroPage } from '../pages/cadastro/cadastro';
+import { PagamentoPage } from '../pages/pagamento/pagamento';
 
 
 @NgModule({
@@ -23,6 +24,7 @@ import { CadastroPage } from '../pages/cadastro/cadastro';
     TabsPage,
     IntroPage,
     CadastroPage,
+    PagamentoPage
     
   ],
   imports: [
@@ -38,7 +40,8 @@ import { CadastroPage } from '../pages/cadastro/cadastro';
     HomePage,
     TabsPage,
     IntroPage,
-    CadastroPage
+    CadastroPage,
+    PagamentoPage
   ],
   providers: [
     StatusBar,
