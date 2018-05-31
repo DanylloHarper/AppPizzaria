@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { CadastroPage } from '../cadastro/cadastro';
-import { HomePage } from '../home/home';
+import { PizzasPage } from '../pizzas/pizzas';
 
 @IonicPage()
 @Component({
@@ -19,7 +19,7 @@ export class IntroPage {
   cadastro() {
     this.navCtrl.push(CadastroPage)
   }
-  home(){
-    this.navCtrl.push(HomePage)
+  pizzas(){
+    this.navCtrl.push(PizzasPage)
   }
 }
