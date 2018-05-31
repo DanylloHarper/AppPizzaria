@@ -1,17 +1,17 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
-import { ContactPage } from '../contact/contact';
+import { CarrinhoPage } from '../carrinho/carrinho';
 
 @Component({
-  selector: 'page-about',
-  templateUrl: 'about.html'
+  selector: 'page-bebidas',
+  templateUrl: 'bebidas.html'
 })
-export class AboutPage {
+export class BebidasPage {
 
   constructor(public navCtrl: NavController) {
 
   }
 carrinho(){
-  this.navCtrl.push(ContactPage)
+  this.navCtrl.push(CarrinhoPage)
 }
 }
